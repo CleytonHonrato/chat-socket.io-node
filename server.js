@@ -14,6 +14,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 app.get('/', function(req, res){
+    console.log('testando api');
     res.sendFile('index.html');
 })
 
